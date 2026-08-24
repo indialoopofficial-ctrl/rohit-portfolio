@@ -91,6 +91,16 @@ function App() {
         </div>
       </section>
 
+      <section className="section">
+        <p className="eyebrow">ABOUT ME</p>
+        <h2>Frontend developer focused on useful websites.</h2>
+        <p className="aboutText">
+          I build responsive, modern websites using HTML, CSS, JavaScript and React.
+          My focus is clean UI, mobile-friendly layouts, good performance and practical
+          websites that help businesses present themselves professionally online.
+        </p>
+      </section>
+
       <section id="services" className="section">
         <p className="eyebrow">WHAT I DO</p>
         <h2>How I can help.</h2>
@@ -106,12 +116,30 @@ function App() {
         <p className="eyebrow">LET'S WORK TOGETHER</p>
         <h2>Have a project in mind?</h2>
         <p>I'm available for freelance website development projects.</p>
-        <a href="mailto:mahakaljaat579@gmail.com">Start a Project →</a>
+        <div className="contactButtons">
+          <a href="mailto:mahakaljaat579@gmail.com">Email Me →</a>
+          <a
+            className="contactSecondary"
+            href="https://wa.me/917878072194"
+            target="_blank"
+            rel="noreferrer"
+          >
+            WhatsApp
+          </a>
+        </div>
       </section>
 
       <footer>
         <div>Rohit<span>.</span></div>
-        <p>Frontend Web Developer · India</p>
+        <p>
+          <a
+            href="https://github.com/indialoopofficial-ctrl"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+        </p>
         <p>© 2026 Rohit</p>
       </footer>
     </main>

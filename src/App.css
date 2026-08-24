@@ -318,3 +318,36 @@ footer {
 .projectLink:hover {
   text-decoration: underline;
 }
+
+.aboutText {
+  max-width: 760px;
+  color: #929ba8;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.contactButtons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.contactButtons a {
+  display: inline-block;
+  background: #70e1b5;
+  color: #07100d;
+  font-weight: 800;
+  padding: 16px 25px;
+  border-radius: 9px;
+}
+
+.contactButtons .contactSecondary {
+  background: #11151b;
+  color: #f5f7fa;
+  border: 1px solid #303741;
+}
+
+footer a:hover {
+  color: #70e1b5;
+}
