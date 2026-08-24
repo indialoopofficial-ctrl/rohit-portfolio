@@ -55,6 +55,14 @@ function App() {
             <div className="tags">
               <span>React</span><span>JavaScript</span><span>SEO</span>
             </div>
+            <a
+              className="projectLink"
+              href="https://goldcalc-india.vercel.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Live Project →
+            </a>
           </article>
 
           <article className="card">

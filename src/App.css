@@ -306,3 +306,15 @@ footer {
     text-align: center;
   }
 }
+
+.projectLink {
+  display: inline-block;
+  margin-top: 24px;
+  color: #70e1b5;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.projectLink:hover {
+  text-decoration: underline;
+}
